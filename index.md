@@ -19,6 +19,7 @@ npm install khanacademyjs --save
 #### Badges
 
 **Retrieve a list of all badges**
+
 ``` javascript
 var khanJS = require('khanacademyjs');
 khanJS.badges.getBadges((err, response, badges)=>{
@@ -50,6 +51,7 @@ khanJS.badges.getBadges((err, response, badges)=>{
 ```
 
 **Retrieve a list of all badge categories.**
+
 ``` javascript
 var khanJS = require('khanacademyjs');
 khanJS.badges.getBadgeCategories((err, response, categories)=>{
