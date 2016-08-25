@@ -14,6 +14,7 @@ npm install khanacademyjs --save
 ### SDK documentation
 * [Badges](#badges)
 * [Videos](#videos)
+* [Exercises](#exercises)
 
 <a name="badges"></a>
 #### Badges
@@ -99,5 +100,62 @@ khanJS.videos.getVideo(videoReadableId, (err, response, video)=>{
 var khanJS = require('khanacademyjs');
 khanJS.videos.getExercises(videoReadableId, (err, response, exercises)=>{
 	console.log(`Found ${exercises.length} exercises`);
+});
+```
+
+<a name="exercises"></a>
+#### Exercises
+
+##### Retrieve a filtered list of exercises in the library.
+
+``` javascript
+var khanJS = require('khanacademyjs');
+khanJS.exercises.getExercises((err, response, exercises)=>{
+	console.log(`Found ${exercises.length} exercises`);
+});
+```
+
+##### Retrieve exercises identified by `exerciseName`.
+
+``` javascript
+var khanJS = require('khanacademyjs');
+khanJS.exercises.getExercise(exerciseName, (err, response, exercises)=>{
+	console.log(`Found ${exercises.length} exercises`);
+});
+```
+
+##### Retrieve exercises identified by `exerciseName`.
+
+``` javascript
+var khanJS = require('khanacademyjs');
+khanJS.exercises.getExercise(exerciseName, (err, response, exercise)=>{
+	console.log(`Found exercise`, exercise);
+});
+```
+
+##### Retrieve all the exercises that list `exerciseName` as a prerequisite.
+
+``` javascript
+var khanJS = require('khanacademyjs');
+khanJS.exercises.getFollowupExercises(exerciseName, (err, response, followupExercises)=>{
+	console.log(`Found ${followupExercises.length} followup exercises`);
+});
+```
+
+##### Retrieve a list of videos associated with `exerciseName`.
+
+``` javascript
+var khanJS = require('khanacademyjs');
+khanJS.exercises.getVideos(exerciseName, (err, response, videos)=>{
+	console.log(`Found ${videos.length} videos`);
+});
+```
+
+##### Retrieve a list of Perseus exercises used for autocomplete.
+
+``` javascript
+var khanJS = require('khanacademyjs');
+khanJS.exercises.getPersusAutoComplete(exerciseName, (err, response, autoCompleteItems)=>{
+	console.log(`Found ${autoCompleteItems.length} autocomplete items`);
 });
 ```
