@@ -70,6 +70,7 @@ khanJS.badges.getBadgeCategories((err, response, categories)=>{
 	    "type_label": "Meteorite Badges"
 	}
 ```
+
 **Retrieve specific badge category identified by `categoryId`**
 
 ``` javascript
@@ -78,6 +79,7 @@ khanJS.badges.getBadgeCategory(categoryId, (err, response, category)=>{
 	console.log(`Found category`, category);
 });
 ```
+
 
 <a name="videos"></a>
 #### Videos
