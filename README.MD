@@ -9,7 +9,7 @@ npm install khanacademyjs --save
 
 ### SDK documentation
 * [Badges](#badges)
-
+* [Videos](#videos)
 
 <a name="badges"></a>
 #### Badges
@@ -30,9 +30,6 @@ khanJS.badges.getBadges((err, response, badges)=>{
       "name": "greattimedproblembadge",
       "points": 500,
       "safe_extended_description": "Quickly & correctly answer 10 exercise problems in a row (time limit depends on exercise difficulty)",
-      /* The following user_badges property will only exist */
-      /* if an authenticated call is made and the user has earned */
-      /* this badge at least once. */
       "user_badges": [
           {
               "badge_name": "greattimedproblembadge",
@@ -40,8 +37,6 @@ khanJS.badges.getBadges((err, response, badges)=>{
               "kind": "UserBadge",
               "points_earned": 500,
               "target_context": {
-                  ... /* The target_context will contain either */ ...
-                  ... /* an Exercise or Playlist entity */ ...
               },
               "target_context_name": "Addition 1",
               "user": "you@gmail.com"
@@ -75,5 +70,26 @@ khanJS.badges.getBadgeCategories((err, response, categories)=>{
 var khanJS = require('khanacademyjs');
 khanJS.badges.getBadgeCategory(categoryId, (err, response, category)=>{
 	console.log(`Found category`, category);
+});
+```
+
+<a name="videos"></a>
+#### Videos
+
+##### Retrieve the video identified by `readable_id` or `youtube_id`.
+
+``` javascript
+var khanJS = require('khanacademyjs');
+khanJS.videos.getVideo(videoReadableId, (err, response, video)=>{
+	console.log(`Found video`, video);
+});
+```
+
+##### Retrieve a list of all exercises associated with video `video_id`.
+
+``` javascript
+var khanJS = require('khanacademyjs');
+khanJS.videos.getExercises(videoReadableId, (err, response, exercises)=>{
+	console.log(`Found ${exercises.length} exercises`);
 });
 ```
