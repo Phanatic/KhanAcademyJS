@@ -11,5 +11,26 @@
   "dependencies": {
     "async": "^2.0.1",
     "request": "^2.74.0"
+  },
+  "devDependencies": {
+    "eslint": "2.8.0",
+    "gulp": "3.9.1",
+    "gulp-eslint": "2.0.0",
+    "gulp-filter": "4.0.0",
+    "gulp-header": "1.7.1",
+    "gulp-jsbeautifier": "2.0.3",
+    "gulp-mocha": "2.2.0",
+    "gulp-replace": "0.5.4",
+    "gulp-util": "3.0.7",
+    "istanbul": "0.4.3",
+    "js-beautify": "1.6.2",
+    "mocha": "2.4.5",
+    "q": "1.4.1",
+    "randomstring": "1.1.4",
+    "rewire": "2.5.1",
+    "should": "8.3.1",
+    "sinon": "1.17.3",
+    "tcp-proxy": "0.0.1",
+    "yargs": "4.6.0"
   }
 }
