@@ -1,3 +1,7 @@
+---
+layout: post
+title: Khan Academy JS
+---
 ### Khan Academy JS
 *Node.JS SDK for interacting with Khan Academy APIs*
 
