@@ -11,7 +11,7 @@
   "dependencies": {
     "loose-envify": "^1.1.0",
     "object-assign": "^4.1.1",
-    "prop-types": "^15.6.2"
+    "prop-types": "^15.6.2",
     "async": "^2.0.1",
     "request": "^2.74.0"
   },
