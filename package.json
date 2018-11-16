@@ -1,7 +1,7 @@
 {
   "name": "khanacademyjs",
   "version": "0.0.2",
-  "description": "Node.JS SDK for interacting with Khan Academy APIs",
+  "description": "Node.JS Client SDK for interacting with Khan Academy APIs",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no tests specified\" && exit 1"
