@@ -1,6 +1,6 @@
 {
   "name": "khanacademyjs",
-  "version": "0.1.6",
+  "version": "0.1.7",
   "description": "Node.JS Client SDK for interacting with Khan Academy APIs",
   "main": "index.js",
   "update": "13",
