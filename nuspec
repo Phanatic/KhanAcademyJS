@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <id>nuspec sample</id>
+    <version>1.0.0</version>
+    <authors>GitHub</authors>
+    <dependencies>
+      <dependency id="FluentNHibernate" version="2.0.3.0" />
+      <dependency id="log4net" version="2.0.8.0" />
+      <dependency id="Newtonsoft.Json" version="6.0.0.0" />
+      <dependency id="UserModel.SMDC" version="1.0.0.0" />
+      <dependency id="Microsoft.AspNet.Identity.Core" version="2.2.1" />
+      <dependency id="Microsoft.AspNet.WebPages.Core" version="5.2.3" />
+      <dependency id="Microsoft.AspNet.WebApi.Data" version="3.2.5" />
+      <dependency id="Microsoft.AspNet.WebApi.WebData" version="3.2.5" />
+      <dependency id="Npgsql" version="3.2.5" />
+      <dependency id="RouteMagic" version="1.1.0" />
+    </dependencies>
+  </metadata>
+</package>
