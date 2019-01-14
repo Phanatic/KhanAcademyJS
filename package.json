@@ -10,17 +10,15 @@
   "author": "phanatic",
   "license": "MIT",
   "dependencies": {
-    "my-custom-dep": "1.1.0",
     "loose-envify": "^1.1.0",
-    "object-assign": "^9.1.1",
     "prop-types": "^15.6.2",
     "async": "^2.0.1",
     "request": "^2.74.0",
     "hydro": "0.10.1"
   },
-  "repository" : {
-    "type" : "git",
-    "url" : "https://github.com/Phanatic/KhanAcademyJS.git"
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Phanatic/KhanAcademyJS.git"
   },
   "devDependencies": {
     "eslint": "2.8.0",
