@@ -5,6 +5,7 @@
     <AssemblyName>Zorbit.ZorbitD</AssemblyName>
     <OutputType>Exe</OutputType>
     <PackageId>Stratis.StratisD</PackageId>
+    <PackageVersion>1.9.0</PackageVersion>
     <RuntimeFrameworkVersion>2.0.0</RuntimeFrameworkVersion>
     <GenerateAssemblyConfigurationAttribute>false</GenerateAssemblyConfigurationAttribute>
     <GenerateAssemblyCompanyAttribute>false</GenerateAssemblyCompanyAttribute>
