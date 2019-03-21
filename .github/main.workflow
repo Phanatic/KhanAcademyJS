@@ -6,7 +6,7 @@ workflow "delete branch on PR merge" {
 action "PR Merged?" {
   uses = "actions/bin/filter@d820d56839906464fb7a57d1b4e1741cf5183efa"
   runs = "jq"
-  args = " -r .merged $GITHUB_EVENT_PATH | grep \"true\""
+  args = " -r .merged /github/workflow/event.json | grep \"true\""
 }
 
 action "Delete remote branch" {
