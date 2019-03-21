@@ -9,8 +9,7 @@ action "PR Merged?" {
 }
 
 action "Delete remote branch" {
-  uses = "actions/npm@59b64a598378f31e49cb76f27d6f3312b582f680"
+  uses = "swinton/httpie.action@8ab0a0e926d091e0444fcacd5eb679d2e2d4ab3d"
   needs = ["PR Merged?"]
-  runs = "git"
-  args = "push origin --delete $(echo $GITHUB_REF | cut -d \"/\" -f3)"
+  args = "[\"DELETE\", \"https://api.github.com/repos/$GITHUB_REPOSITORY/git/$GITHUB_REF\"]"
 }
