@@ -159,3 +159,5 @@ khanJS.exercises.getPersusAutoComplete(exerciseName, (err, response, autoComplet
 	console.log(`Found ${autoCompleteItems.length} autocomplete items`);
 });
 ```
+
+Garbage change
