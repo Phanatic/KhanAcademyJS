@@ -4,7 +4,7 @@
 
 #### Install this package.
 
-``` bash
+``` javascript
 npm install khanacademyjs --save
 ```
 
