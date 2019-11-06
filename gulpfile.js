@@ -15,7 +15,7 @@ var gulp = require('gulp'),
 // Task: lint-and-beautify
 // Performs in-place linting & beautification of the *src* files. We perform
 // this in-place so that the checked in code is clean and consistent.
-gulp.task('lint-and-beautify', function () {
+gulp.task('lint-and-beautifier', function () {
   // Beautify Config: src/.jsbeautifyrc
   // Linting Config: src/.estlintrc
   return gulp
