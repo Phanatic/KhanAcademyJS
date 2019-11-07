@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
   <metadata>
-    <id>nuspec sample package</id>
+    <id>nuspec sample packaging</id>
     <version>1.0.3</version>
     <authors>GitHub</authors>
     <dependencies>
