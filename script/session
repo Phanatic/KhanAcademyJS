@@ -1,0 +1,3 @@
+#! /bin/bash
+
+cat ./script/welcome-banner.txt;echo
