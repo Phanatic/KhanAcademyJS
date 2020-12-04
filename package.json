@@ -21,7 +21,7 @@
     "url": "https://github.com/Phanatic/KhanAcademyJS.git"
   },
   "devDependencies": {
-    "eslint": "2.8.0",
+    "eslint": "4.18.2",
     "gulp": "3.9.1",
     "gulp-eslint": "2.0.0",
     "gulp-filter": "4.0.0",
